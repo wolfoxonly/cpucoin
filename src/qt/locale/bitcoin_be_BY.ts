@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>ICBit Core зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
+        <translation>Cpucoin Core зараз будзе зачынены, каб фіналізаваць працэс шыфравання. Памятайце, што шыфраванне вашага гаманца не гарантуе абсалютную абарону ад магчымасці крадзяжу біткойнаў шкоднымі праграмамі, якія могуць інфікаваць ваш камп'ютар.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Bitcoin Core client</source>
-        <translation>ICBit Core кліент</translation>
+        <translation>Cpucoin Core кліент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -351,7 +351,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Паказаць інфармацыю аб ICBit Core</translation>
+        <translation>Паказаць інфармацыю аб Cpucoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>ICBit Core</translation>
+        <translation>Cpucoin Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>Аб ICBit Core</translation>
+        <translation>Аб Cpucoin Core</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Мадыфікаваць опцыі канфігурацыі ICBit Core</translation>
+        <translation>Мадыфікаваць опцыі канфігурацыі Cpucoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,11 +419,11 @@
     </message>
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Паказваць даведку ICBit Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
+        <translation>Паказваць даведку Cpucoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам ICBit</numerusform><numerusform>%n актыўных злучэнняў з сецівам ICBit</numerusform><numerusform>%n актыўных злучэнняў з сецівам ICBit</numerusform><numerusform>%n актыўных злучэнняў з сецівам ICBit</numerusform></translation>
+        <translation><numerusform>%n актыўнае злучэнне з сецівам Cpucoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Cpucoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Cpucoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Cpucoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -776,7 +776,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>ICBit Core</translation>
+        <translation>Cpucoin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -784,7 +784,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Аб ICBit Core</translation>
+        <translation>Аб Cpucoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -807,11 +807,11 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Вітаем у ICBit Core.</translation>
+        <translation>Вітаем у Cpucoin Core.</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>ICBit Core</translation>
+        <translation>Cpucoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1103,11 +1103,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>ICBit Core</translation>
+        <translation>Cpucoin Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Распрацоўнікі ICBit Core</translation>
+        <translation>Распрацоўнікі Cpucoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
