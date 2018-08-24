@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>ICBit</translation>
+        <translation>Cpucoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Dangos gwybodaeth am Graidd ICBit</translation>
+        <translation>Dangos gwybodaeth am Graidd Cpucoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -255,11 +255,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd ICBit</translation>
+        <translation>Craidd Cpucoin</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Ynghylch Craidd ICBit</translation>
+        <translation>&amp;Ynghylch Craidd Cpucoin</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -426,11 +426,11 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd ICBit</translation>
+        <translation>Craidd Cpucoin</translation>
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Ynghylch Craidd ICBit</translation>
+        <translation>Ynghylch Craidd Cpucoin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -445,11 +445,11 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Croeso i Graidd ICBit</translation>
+        <translation>Croeso i Graidd Cpucoin</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd ICBit</translation>
+        <translation>Craidd Cpucoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -665,11 +665,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd ICBit</translation>
+        <translation>Craidd Cpucoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Datblygwyr Graidd ICBit</translation>
+        <translation>Datblygwyr Graidd Cpucoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

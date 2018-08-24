@@ -72,7 +72,7 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 5256000;
+        consensus.nSubsidyHalvingInterval = 30000000;//coingo
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
@@ -92,8 +92,8 @@ public:
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1523529400;
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1523529499;
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1535108070;//coingo
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1535108169;//coingo
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -105,12 +105,13 @@ public:
         pchMessageStart[2] = 0xbb;
         pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("0408e6f641e4cf520244966a61f30dc849312adc85af5225f9943b378069f251ca1573f69f7aa5d018fc3830bb6392cfe1fd85c4979bbeadc089fb595dd9d2ad3e");
-        nDefaultPort = 9013;
+        nDefaultPort = 9088;//coingo
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);
-        while(!true){// search genesis
+        genesis = CreateGenesisBlock(1535108070, 115, 0x2000ffff, 1, 0.2 * COIN);//coingo
+        //while(!true){// search genesis
+        while(true){// search genesis coingo
             static FILE * genesis_file = NULL; if (genesis_file == NULL) {genesis_file = fopen("genesis.info", "w");}
             arith_uint256 hash = UintToArith256(genesis.GetHash());
             arith_uint256 target;
@@ -131,23 +132,27 @@ public:
             }
             genesis.nNonce++;
         }
-        assert(genesis.GetHash() == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
-        assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
+        //assert(genesis.GetHash() == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
+        //assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));//coingo
         consensus.hashGenesisBlock = genesis.GetHash();
 
-        vSeeds.push_back(CDNSSeedData("n1.icbstats.info", "n1.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n2.icbstats.info", "n2.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n3.icbstats.info", "n3.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n4.icbstats.info", "n4.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n5.icbstats.info", "n5.icbstats.info"));
-        vSeeds.push_back(CDNSSeedData("n6.icbstats.info", "n6.icbstats.info"));
-
-        vSeeds.push_back(CDNSSeedData("n1.icbit.io", "n1.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n2.icbit.io", "n2.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n3.icbit.io", "n3.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n4.icbit.io", "n4.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n5.icbit.io", "n5.icbit.io"));
-        vSeeds.push_back(CDNSSeedData("n6.icbit.io", "n6.icbit.io"));
+        vSeeds.push_back(CDNSSeedData("n1.cpucointop.io", "n1.cpucointop.io"));
+		vSeeds.push_back(CDNSSeedData("n2.cpucointop.io", "n2.cpucointop.io"));
+		vSeeds.push_back(CDNSSeedData("n3.cpucointop.io", "n3.cpucointop.io"));
+        vSeeds.push_back(CDNSSeedData("n4.cpucointop.io", "n4.cpucointop.io"));
+		vSeeds.push_back(CDNSSeedData("n5.cpucointop.io", "n5.cpucointop.io"));
+		
+        vSeeds.push_back(CDNSSeedData("n1.cpucoinglobal.io", "n1.cpucoinglobal.io"));
+		vSeeds.push_back(CDNSSeedData("n2.cpucoinglobal.io", "n2.cpucoinglobal.io"));
+		vSeeds.push_back(CDNSSeedData("n3.cpucoinglobal.io", "n3.cpucoinglobal.io"));
+		vSeeds.push_back(CDNSSeedData("n4.cpucoinglobal.io", "n4.cpucoinglobal.io"));
+		vSeeds.push_back(CDNSSeedData("n5.cpucoinglobal.io", "n5.cpucoinglobal.io"));
+		
+        vSeeds.push_back(CDNSSeedData("n1.cpucoinbit.io", "n1.cpucoinbit.io"));
+		vSeeds.push_back(CDNSSeedData("n2.cpucoinbit.io", "n2.cpucoinbit.io"));
+		vSeeds.push_back(CDNSSeedData("n3.cpucoinbit.io", "n3.cpucoinbit.io"));
+		vSeeds.push_back(CDNSSeedData("n4.cpucoinbit.io", "n4.cpucoinbit.io"));
+		vSeeds.push_back(CDNSSeedData("n5.cpucoinbit.io", "n5.cpucoinbit.io"));//coingo
 
         // Ref: https://en.bitcoin.it/wiki/List_of_address_prefixes
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0); //'1'
@@ -166,14 +171,10 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (        0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"))
-            (        1, uint256S("0x00a64a5510b104fd4c2a8da7dc520267a944e0b698844c05a1bc31f5458223e3"))
-            (        2, uint256S("0x00a3578faaeebee5d58845d39c116c7a4e756d66bb049a97bc68d4b0130717b8"))
-            (        3, uint256S("0x0010b879cf9a4687ade763b16956dcadab28138beedcfabadc47ea3dd84e0745"))
-            (        4, uint256S("0x00333a07d2354c44a93ac1be0eb8ab565c77a76e8a7dbc065afe8275d4ac8743"))
-            (        5, uint256S("0x00180450a29c81d07a602b7be90525f32020794ed622e6ed983d48c9e964f0ed"))
+            (        0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"))//coingo
+
             ,
-            1523529400, // * UNIX timestamp of last checkpoint block
+            1535108070, // * UNIX timestamp of last checkpoint block coingo
             1,          // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             60000.0     // * estimated number of transactions per day after checkpoint
@@ -220,14 +221,14 @@ public:
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);
+        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);//coingo
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("n1.ICBitstatus.info", "n1.ICBitstatus.info"));
+        //vSeeds.push_back(CDNSSeedData("n1.Cpucoinstatus.info", "n1.Cpucoinstatus.info"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

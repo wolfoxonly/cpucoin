@@ -155,7 +155,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>ICBit</translation>
+        <translation>Cpucoin</translation>
     </message>
     <message>
         <source>Wallet</source>

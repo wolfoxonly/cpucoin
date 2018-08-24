@@ -395,7 +395,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :ICBit)</translation>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :Cpucoin)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>

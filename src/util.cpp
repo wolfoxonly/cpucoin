@@ -99,8 +99,8 @@ namespace boost {
 
 using namespace std;
 
-const char * const BITCOIN_CONF_FILENAME = "ICBit.conf";
-const char * const BITCOIN_PID_FILENAME = "ICBitd.pid";
+const char * const BITCOIN_CONF_FILENAME = "Cpucoin.conf";
+const char * const BITCOIN_PID_FILENAME = "Cpucoind.pid";
 
 map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
@@ -435,7 +435,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "ICBit";
+    const char* pszModule = "Cpucoin";
 #endif
     if (pex)
         return strprintf(
@@ -455,13 +455,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ICBit
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ICBit
-    // Mac: ~/Library/Application Support/ICBit
-    // Unix: ~/.ICBit
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Cpucoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Cpucoin
+    // Mac: ~/Library/Application Support/Cpucoin
+    // Unix: ~/.Cpucoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ICBit";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Cpucoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -471,10 +471,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/ICBit";
+    return pathRet / "Library/Application Support/Cpucoin";
 #else
     // Unix
-    return pathRet / ".ICBit";
+    return pathRet / ".Cpucoin";
 #endif
 #endif
 }
@@ -533,14 +533,14 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No ICBit.conf file is OK
+        return; // No Cpucoin.conf file is OK
 
     set<string> setOptions;
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override ICBit.conf
+        // Don't overwrite existing settings so command line settings override Cpucoin.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
