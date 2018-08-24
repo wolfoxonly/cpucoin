@@ -111,7 +111,8 @@ public:
 
         genesis = CreateGenesisBlock(1535108070, 115, 0x2000ffff, 1, 0.2 * COIN);//coingo
         //while(!true){// search genesis
-        while(true){// search genesis coingo
+        while(true){
+		// search genesis coingo
             static FILE * genesis_file = NULL; if (genesis_file == NULL) {genesis_file = fopen("genesis.info", "w");}
             arith_uint256 hash = UintToArith256(genesis.GetHash());
             arith_uint256 target;
@@ -221,7 +222,7 @@ public:
         nMaxTipAge = 0x7fffffff;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 77 * COIN);//coingo
+        genesis = CreateGenesisBlock(1526990901, 115, 0x2000ffff, 1, 0.2 * COIN);//coingo
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
         assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));
