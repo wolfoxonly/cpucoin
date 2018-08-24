@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Cpucoin"
-            VALUE "FileDescription",    "Cpucoin-cli (JSON-RPC client for Cpucoin)"
+            VALUE "CompanyName",        "ICBit"
+            VALUE "FileDescription",    "ICBit-cli (JSON-RPC client for ICBit)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Cpucoin-cli"
+            VALUE "InternalName",       "ICBit-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Cpucoin-cli.exe"
-            VALUE "ProductName",        "Cpucoin-cli"
+            VALUE "OriginalFilename",   "ICBit-cli.exe"
+            VALUE "ProductName",        "ICBit-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

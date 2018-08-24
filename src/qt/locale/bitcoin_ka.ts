@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>ეს არის თქვენი Cpucoin-მისამართები გადახდების შესასრულებლად. მონეტების გაგზავნამდე ყოველთვის შეამოწმეთ თანხა და მიმღების მისამართი.</translation>
+        <translation>ეს არის თქვენი ICBit-მისამართები გადახდების შესასრულებლად. მონეტების გაგზავნამდე ყოველთვის შეამოწმეთ თანხა და მიმღების მისამართი.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>ეს არის თქვენი Cpucoin-მისამართები გადახდების მისაღებად. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიღების მისამართის გამოყენება.</translation>
+        <translation>ეს არის თქვენი ICBit-მისამართები გადახდების მისაღებად. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიღების მისამართის გამოყენება.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -287,7 +287,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>მონეტების გაგზავნა Cpucoin-მისამართზე</translation>
+        <translation>მონეტების გაგზავნა ICBit-მისამართზე</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -311,7 +311,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Cpucoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,11 +339,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>მესიჯებზე ხელმოწერა თქვენი Cpucoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <translation>მესიჯებზე ხელმოწერა თქვენი ICBit-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Cpucoin-მისამართით</translation>
+        <translation>შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული ICBit-მისამართით</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -363,15 +363,15 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და Cpucoin: ბმულები)</translation>
+        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და ICBit: ბმულები)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>Cpucoin Core-ს შეს&amp;ახებ</translation>
+        <translation>ICBit Core-ს შეს&amp;ახებ</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -383,7 +383,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Cpucoin: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
+        <translation>ICBit: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -391,7 +391,7 @@
     </message>
     <message>
         <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Cpucoin Core-ს დახმარების ჩვენება Cpucoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+        <translation>ICBit Core-ს დახმარების ჩვენება ICBit-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -688,7 +688,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>შეყვანილი მისამართი "%1" არ არის ვალიდური Cpucoin-მისამართი.</translation>
+        <translation>შეყვანილი მისამართი "%1" არ არის ვალიდური ICBit-მისამართი.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -726,7 +726,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -734,7 +734,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Cpucoin Core-ს შესახებ</translation>
+        <translation>ICBit Core-ს შესახებ</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -757,15 +757,15 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>მოგესალმებათ Cpucoin Core.</translation>
+        <translation>მოგესალმებათ ICBit Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Cpucoin Core-მ.</translation>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები ICBit Core-მ.</translation>
     </message>
     <message>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Cpucoin Core გადმოტვირთავს და შეინახავს Cpucoin-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა %1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
+        <translation>ICBit Core გადმოტვირთავს და შეინახავს ICBit-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა %1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -777,7 +777,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -859,7 +859,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>როუტერში Cpucoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <translation>როუტერში ICBit-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -954,7 +954,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Cpucoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება ICBit-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1009,7 +1009,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>ვერ გაიშვა Cpucoin: click-to-pay</translation>
+        <translation>ვერ გაიშვა ICBit: click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1529,7 +1529,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>ყურადღება: არასწორია Cpucoin-მისამართი</translation>
+        <translation>ყურადღება: არასწორია ICBit-მისამართი</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1615,7 +1615,7 @@
     <name>ShutdownWindow</name>
     <message>
         <source>Bitcoin Core is shutting down...</source>
-        <translation>Cpucoin Core იხურება...</translation>
+        <translation>ICBit Core იხურება...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1682,7 +1682,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Cpucoin-მისამართით</translation>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული ICBit-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1749,11 +1749,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin Core</translation>
+        <translation>ICBit Core</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Cpucoin Core-ს ავტორები</translation>
+        <translation>ICBit Core-ს ავტორები</translation>
     </message>
     <message>
         <source>[testnet]</source>

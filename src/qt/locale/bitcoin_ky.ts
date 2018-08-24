@@ -39,7 +39,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Cpucoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>

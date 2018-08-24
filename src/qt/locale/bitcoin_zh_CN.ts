@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>请求支付（生成二维码和 Cpucoin: URI）</translation>
+        <translation>请求支付（生成二维码和 ICBit: URI）</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>打开一个Cpucoin：URI 或支付请求</translation>
+        <translation>打开一个ICBit：URI 或支付请求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -2246,7 +2246,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Cpucoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过Cpucoin网络传输。</translation>
+        <translation>ICBit:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过ICBit网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -3382,7 +3382,7 @@
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>这是实验性的软件。如果你认为Cpucoin对你比较有用的话，请对我们进行一些捐赠支持。请访问https://icbit.io网站来获取有关这个软件的更多信息。源代码可以在 https://github.com/icbitproject/icbit 获得。</translation>
+        <translation>这是实验性的软件。如果你认为ICBit对你比较有用的话，请对我们进行一些捐赠支持。请访问https://icbit.io网站来获取有关这个软件的更多信息。源代码可以在 https://github.com/icbitproject/icbit 获得。</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>

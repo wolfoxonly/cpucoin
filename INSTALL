@@ -1,5 +1,5 @@
-Building Cpucoin
+Building ICBit
 
-See doc/build-*.md for instructions on building Cpucoind,
+See doc/build-*.md for instructions on building ICBitd,
 the intended-for-services, no-graphical-interface, reference
-implementation of Cpucoin.
+implementation of ICBit.

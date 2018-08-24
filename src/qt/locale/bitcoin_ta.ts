@@ -115,7 +115,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Cpucoin</translation>
+        <translation>ICBit</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin மையம்</translation>
+        <translation>ICBit மையம்</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -290,11 +290,11 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin மையம்</translation>
+        <translation>ICBit மையம்</translation>
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Cpucoin மையம் பற்றி</translation>
+        <translation>ICBit மையம் பற்றி</translation>
     </message>
     </context>
 <context>
@@ -305,7 +305,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin மையம்</translation>
+        <translation>ICBit மையம்</translation>
     </message>
     <message>
         <source>Error</source>
@@ -813,7 +813,7 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Cpucoin மையம்</translation>
+        <translation>ICBit மையம்</translation>
     </message>
     </context>
 <context>
