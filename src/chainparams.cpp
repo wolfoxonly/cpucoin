@@ -109,9 +109,9 @@ public:
         nMaxTipAge = 100 * 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1535108070, 115, 0x2000ffff, 1, 0.2 * COIN);//coingo
+        genesis = CreateGenesisBlock(1535108070, 567, 0x2000ffff, 1, 0.2 * COIN);//coingo
         //while(!true){// search genesis
-        while(true){
+        while(!true){
 		// search genesis coingo
             static FILE * genesis_file = NULL; if (genesis_file == NULL) {genesis_file = fopen("genesis.info", "w");}
             arith_uint256 hash = UintToArith256(genesis.GetHash());
@@ -133,8 +133,8 @@ public:
             }
             genesis.nNonce++;
         }
-        //assert(genesis.GetHash() == uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"));
-        //assert(genesis.hashMerkleRoot == uint256S("0xec59f3525515f6f1bac6b61157f0032e78d85a5c26e4e60a3025b6361f2740be"));//coingo
+        assert(genesis.GetHash() == uint256S("0x0011adb1bb68d0c2294708f7e5a604ea3cca9b55aa952bb5785df45fd54242db"));
+        assert(genesis.hashMerkleRoot == uint256S("0xc4dd3aecabfdfc68f5e47163eaf54a4669ae57569c66dec2f33c6649eaf7e261"));//coingo
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vSeeds.push_back(CDNSSeedData("n1.cpucointop.io", "n1.cpucointop.io"));
@@ -172,7 +172,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (        0, uint256S("0x00cdfc211f52d2d3c4615cbd0979d43f0d35144a0c1db9a4a86b1caf6e6a06a3"))//coingo
+            (        0, uint256S("0xc4dd3aecabfdfc68f5e47163eaf54a4669ae57569c66dec2f33c6649eaf7e261"))//coingo
 
             ,
             1535108070, // * UNIX timestamp of last checkpoint block coingo
