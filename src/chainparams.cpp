@@ -173,6 +173,8 @@ public:
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
             (        0, uint256S("0x0011adb1bb68d0c2294708f7e5a604ea3cca9b55aa952bb5785df45fd54242db"))//coingo
+            (        1, uint256S("0x008fea5f68d2c3792cb392798cc179294765715fec749241f2c6eeef11dc3554"))
+            (        2, uint256S("0x00b971b5136008b58646d8f0a1c6c131b066d8020ecf4fc8055ab189b936aa05"))
 
             ,
             1535108070, // * UNIX timestamp of last checkpoint block coingo
